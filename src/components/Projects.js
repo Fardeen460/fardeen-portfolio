@@ -31,7 +31,7 @@ function Projects() {
             <h3>{proj.title}</h3>
             <p><strong>Tech:</strong> {proj.tech}</p>
             <p>{proj.desc}</p>
-            <a href={proj.link} target="_blank">Live Demo</a>
+            <a href={proj.link} target="_blank" rel="noreferrer">Live Demo</a>
           </div>
         ))}
       </div>
